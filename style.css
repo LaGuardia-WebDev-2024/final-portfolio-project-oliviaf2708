@@ -42,3 +42,7 @@ li a:hover:not(.active) {
 h1 {
   width: 100%;
 }
+
+.textblock {
+  color: #facac3;
+}
