@@ -2,35 +2,90 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Final Project - Resume</title>
+    <title>Final Project - Personal Works</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
+      .parent-flex {
+        display: flex;
+        background-color: #d4f5f2;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 50px;
+      }
+
+      .parent-flex img {
+        width: 300px;
+        padding: 20px;
+      }
+      .child-flex p {
+        background-color: #F7E2E0;
+        padding: 20px;
+        margin: 20px;
+      }
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
-      <li><a class="active" href="resume.html">Resume</a></li>
       <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-      <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
-            style="width: 25px; margin: -5px"
-        /></a>
       </li>
     </ul>
+
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Resume</h1>
+    <h1>Winter 2025 Drama Cabaret</h1>
+    <div class="parent-flex">
+      <div class="child-flex">
+        <img
+          src="IMG_3947.jpeg"
+        />
+      </div>
+      <div class="child-flex">
+        <img
+          src="P1050339.JPG"
+        />
+      </div>
+      <div class="child-flex">
+        <img
+          src="Screenshot 2026-05-21 at 10.04.11 AM.png"
+        />
+      </div>
+      <div class="child-flex">
+        <p>
+          This was a project I worked on winter of my junior year in 2025. It was the 
+          first cabaret I'd even done, and I couldn't have asked for a better experience.
+          This is an image of me singing <em>Minor</em> by Gracie Abrams at...
+        </p>
+      </div>
+    </div>
+    <h1>UCLA On Screen Acting Program</h1>
+    <div class="parent-flex">
+      <div class="child-flex">
+        <p>
+          This was a program I did two summers ago in 2024. I was able to stay on the 
+          UCLA campus while taking classes with their theatre program. I had such a fun
+          experience writing and filming a scene with the frineds I met, and I learned so 
+          much about the technicals and skills to on camera acting. I loved being able 
+          to explore LA with my roomates, and get my first feel of what it was like to 
+          live on a college campus. It was truly an amazing experience.
+        </p>
+      </div>
+      <div class="child-flex">
+        <img
+          src="IMG_2667.jpeg"
+        />
+      </div>
+      <div class="child-flex">
+        <img
+          src="IMG_2783.JPG"
+        />
+      </div>
+      <div class="child-flex">
+        <img
+          src="IMG_1419.jpeg"
+        />
+      </div>
+    </div>
   </body>
 </html>
