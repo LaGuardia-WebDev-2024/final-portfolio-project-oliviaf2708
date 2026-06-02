@@ -3,7 +3,7 @@
 body {
   padding-top: 30px;
   margin-left: 0px;
-  background-color: #facac3 !important; 
+  background-color: #f3e1ff !important; 
 }
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
@@ -42,6 +42,7 @@ li a:hover:not(.active) {
 
 h1 {
   width: 100%;
+  margin-left: 20px;
 }
 
 .textblock {
@@ -76,4 +77,6 @@ h1 {
   from, to { border-color: transparent }
   50% { border-color: white }
 }
+
+
 
