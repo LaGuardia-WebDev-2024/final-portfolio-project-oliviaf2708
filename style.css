@@ -79,5 +79,15 @@ h1 {
   50% { border-color: white }
 }
 
+.icons-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 70vh;
+  gap: 200px; /* Add space between icons */
+ 
+}
+
+
 
 
